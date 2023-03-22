@@ -4,22 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Document</title>
+    <title>Caroline Sada</title>
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <h1>Caroline Sada</h1>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="#">Sobre mi</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="" class="nav__logo">Caroline Sada</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">sobre mi</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Servicios</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <i class="bx bx-menu nav__toggle" id="nav-toggle"></i>
+        </div>
       </nav>
     </header>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>
