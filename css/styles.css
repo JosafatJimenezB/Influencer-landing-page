@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: sans-serif;
+}
+
+:root{
+    --navy-blue: #003B73;
+    --royal-blue: #0074B7; 
+    --blue-grotto: #60A3D9;
+    --baby-blue: #BFD7ED;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+header{
+    background-color: var(--navy-blue);
+    color: var(--baby-blue);
+}
+
+
