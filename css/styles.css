@@ -61,6 +61,7 @@ html{
 
 a{
     text-decoration: none;
+    color: var(--second-color);
 }
 
 li{
@@ -270,6 +271,10 @@ img{
   margin: 1rem 0;
 }
 
+.contact__title{
+  text-align: center;
+}
+
 .contact__form{
   width: 100%;
   text-align: center;
@@ -315,6 +320,15 @@ img{
   background-color: var(--second-color-alt);
 }
 
+
+.footer__container{
+  text-align: center;
+  padding: 1rem;
+}
+
+.heart{
+  color: red;
+}
 
 @media screen and (min-width: 768px) {
     body{
@@ -393,6 +407,7 @@ img{
     }
 
     .contact__container{
+      margin: 5rem 0;
       grid-template-columns: repeat(2, 1fr);
     }
 
