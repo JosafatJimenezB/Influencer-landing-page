@@ -6,10 +6,22 @@
     max-width: 350px;
 }
 
+.text-blue{
+    color: #0074B7;
+}
+
 .container-margin{
     margin: 5em auto;
 }
 
 .subcontainer-margin{
     margin: 2em auto;
+}
+
+input{
+    outline: none !important;
+}
+
+input:focus{
+    border: 1px solid #0074B7;
 }
